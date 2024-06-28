@@ -294,7 +294,7 @@ i:hover{
     font-size: 0.9rem; 
   }
   h1{
-    font-size: clamp(1.5rem, 5vw - 1rem, 3.5rem);
+    font-size: clamp(1.5rem, 5vw - 1rem, 3.2rem);
   }
   .hero__container{
     margin-block: 8rem 8rem;
