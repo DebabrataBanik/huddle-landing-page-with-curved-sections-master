@@ -1,3 +1,5 @@
+# Frontend Mentor - Huddle landing page with curved sections solution
+
 This is a solution to the [Huddle landing page with curved sections challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2).
 
 ## Contents
@@ -14,6 +16,7 @@ This is a solution to the [Huddle landing page with curved sections challenge on
 ### Links
 
 - [Live Site URL](https://debabratabanik.github.io/huddle-landing-page-with-curved-sections-master/)
+- [Challenge Solution URL](https://www.frontendmentor.io/solutions/huddle-landing-page-with-curved-sections-master-WH5ktToLOp)
 
 ### Build With
 
