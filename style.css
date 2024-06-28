@@ -27,7 +27,7 @@ img{
 }
 
 header{
-  padding: clamp(1.2rem, 5vw - 1rem, 5rem);
+  padding: clamp(1.2rem, 5vw + 0.5rem, 5rem);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -287,37 +287,42 @@ i:hover{
 
 @media (min-width: 768px){
   header img{
-    width: clamp(150px, 10vw + 20px, 200px);
+    width: clamp(150px, 12vw + 20px, 300px);
   }
   header button{
-    padding: 0.5rem 1.5rem;
-    font-size: 0.8rem; 
+    padding: 0.6rem 1.8rem;
+    font-size: 0.9rem; 
   }
   h1{
-    font-size: clamp(1.5rem, 5vw - 1rem, 3rem);
+    font-size: clamp(1.5rem, 5vw - 1rem, 3.5rem);
+  }
+  .hero__container{
+    margin-block: 8rem 8rem;
   }
   .hero__container p{
-    font-size: 1rem;
-    width: 490px;
+    font-size: 1.2rem;
+    width: 600px;
+    line-height: 1.8rem;
     margin-inline: auto;
   }
   .hero__container button{
-    font-size: 0.95rem;
-    padding: 1.25rem 5rem;
+    font-size: 1rem;
+    padding: 1.5rem 6.5rem;
   }
 
   .stats{
     flex-direction: row;
     justify-content: space-between;
+    margin-block: 10rem 18rem;
   }
   .stat img{
-    width: 35px;
+    width: 40px;
   }
   .stat span{
-    font-size: 5rem;
+    font-size: 5.5rem;
   }
   .stat p{
-    font-size: 1.2rem;
+    font-size: clamp(1rem, 2vw - 0.5rem, 1.2rem);
   }
 
   .feature{
@@ -326,19 +331,20 @@ i:hover{
     align-items: center;
     justify-content: space-between;
     text-align: left;
+    margin-bottom: 20rem;
   }
   .feature img{
-    width: 40%;
+    width: 45%;
     margin: 0;
   }
   .feature article{
-    width: 40%;
+    width: 45%;
   }
   .feature h2{
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   .feature p{
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 
   .first, .third{
@@ -349,8 +355,8 @@ i:hover{
     font-size: clamp(1.5rem, 5vw - 1rem, 2.8rem);
   }
   .subscribe button{
-    font-size: 0.95rem;
-    padding: 1.25rem 5rem;
+    font-size: 1rem;
+    padding: 1.5rem 6.5rem;
   }
 
   footer{
@@ -358,7 +364,7 @@ i:hover{
     flex-direction: row-reverse;
     justify-content: space-between;
     padding: clamp(3rem, 6vw + 1rem, 7rem);
-    padding-bottom: 3.5rem;
+    padding-bottom: 6rem;
   }
   .newsletter {
     margin: 0;
